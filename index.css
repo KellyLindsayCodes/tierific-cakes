@@ -1,0 +1,85 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+
+.home-main-section {
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    flex-grow: 1;
+    padding: 20px;
+}
+
+.home-main-section .img-wrapper {
+    flex-grow: 1;
+    flex-direction: column;
+    display: flex;
+    align-items: stretch;
+    justify-content: flex-end;
+}
+
+.home-main-section .container-1 {
+    display:flex;
+}
+
+.container-1 {
+    border: 1px #900057 solid;
+    padding: 0px;
+    margin-left: 0rem;    
+    /* justify-content: center; */
+}
+
+.box-1 {
+    flex:1;
+}
+
+img
+{
+    max-width: 100%;
+    min-width: 100px;
+    height: auto;
+}
+
+.home-main-section .box-1 {
+    background-image: url(images/vitor-monthay-DuRZqShaf0s-unsplash.jpg);
+    flex-grow: 1;
+    max-height: 70vh;
+    min-width: 45vh;
+    max-width: 100%;
+    min-width: 200px;
+    height: auto;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: block;  
+}
+.box-2 {
+   flex:1; 
+}
+
+.home-main-section-2 {
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    flex-grow: 1;
+}
+
+.home-main-section-2 .img-wrapper {
+    flex-grow: 1;
+    flex-direction: column;
+    display: flex;
+    align-items: stretch;
+    justify-content: flex-end;
+}
+
+.home-main-section-2 .call-to-action {
+    display:flex;
+    flex-direction:column;
+    align-items: flex-start;
+    margin: 1rem;
+    align-self: center;
+}
+.home-main-section {
+    justify-content: center;
+}
